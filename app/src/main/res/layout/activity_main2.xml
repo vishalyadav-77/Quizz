@@ -30,19 +30,27 @@
         android:text="By Vishal"
         android:textColor="#FFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="@+id/textView" /><![CDATA[
+
+    " />
+
+
+
+    ]]>
 
     <TextView
         android:id="@+id/Question"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="91dp"
+        android:layout_marginBottom="60dp"
         android:gravity="center"
         android:text="Question"
         android:textColor="#FFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-        app:layout_constraintEnd_toStartOf="@+id/textView2" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
