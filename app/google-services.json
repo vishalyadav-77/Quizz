@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1078483662471",
+    "project_id": "quizz-storage-vishal",
+    "storage_bucket": "quizz-storage-vishal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078483662471:android:4fc15d9209017379e2aa22",
+        "android_client_info": {
+          "package_name": "com.example.quizz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3lsQ23DOQD62w6sPsPYGIVKbTHgfpB1Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
