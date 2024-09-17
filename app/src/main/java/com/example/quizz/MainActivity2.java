@@ -67,6 +67,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
             else {
                 Intent intent = new Intent(MainActivity2.this, score_activity.class);
                 intent.putExtra("SCORE",score);
+                intent.putExtra("Total_Question",total_ques);
                 startActivity(intent);
             }
 

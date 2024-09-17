@@ -29,7 +29,10 @@ public class score_activity extends AppCompatActivity {
         mediaPlayer.start();
         Intent intent = getIntent();
         int score2 = intent.getIntExtra("SCORE",0);
-        result.setText(String.valueOf(score2));
+        int totalQ = intent.getIntExtra("Total_Question",0);
+        String r= String.valueOf(score2);
+        String t= String.valueOf(totalQ);
+        result.setText(r+"/"+t);
     }
     @Override
     public void onBackPressed() {//IF THE BACK_BUTTON IS PRESSED GO TO MAIN PAGE
