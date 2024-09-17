@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#673AB7"
+    android:background="#512DA8"
     tools:context=".Create_quiz">
 
     <TextView
@@ -41,7 +41,7 @@
         android:ems="10"
         android:hint="Enter Value"
         android:inputType="number"
-        android:paddingLeft="10dp"
+        android:padding="8dp"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

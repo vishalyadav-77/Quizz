@@ -51,7 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="58dp"
-        android:text="your code here"
+        android:text="your result here"
         android:textColor="#FFFF"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
