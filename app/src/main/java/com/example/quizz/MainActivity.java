@@ -11,12 +11,16 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.firebase.FirebaseApp;
+
 public class MainActivity extends AppCompatActivity {
     Button button,button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        FirebaseApp.initializeApp(this);
+
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -26,10 +30,11 @@ public class MainActivity extends AppCompatActivity {
         });
         button=findViewById(R.id.next);
         button2=findViewById(R.id.button2);
+
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              Intent intent= new Intent(MainActivity.this, MainActivity2.class);
+                Intent intent = new Intent(MainActivity.this, QuizId_play.class);
                 startActivity(intent);
             }
         });
