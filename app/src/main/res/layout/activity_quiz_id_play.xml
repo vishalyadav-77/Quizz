@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#512DA8"
+    android:orientation="vertical"
+    tools:context=".QuizId_play">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:padding="16dp">
+
+        <!-- QUIZZ Title -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="63dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/agbalumo"
+            android:text="QUIZZ"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp" />
+
+        <!-- By Vishal near bottom-right of QUIZZ -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="84dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/textView"
+            android:layout_alignStart="@id/textView"
+            android:layout_alignEnd="@id/textView"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="-37dp"
+            android:text="By Vishal"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Quiz Code:"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/adlam_display"
+        android:layout_marginStart="40dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/codeET"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/edittext_design"
+        android:hint="Enter Code"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/findQuizBtn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Find Quiz"
+        android:fontFamily="@font/adlam_display"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/black"
+        />
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practice Quiz"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/adlam_display"
+        android:layout_gravity="center_horizontal"
+        android:textSize="32sp"/>
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:fontFamily="@font/adlam_display"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#64DD17"
+        />
+
+
+
+</LinearLayout>
