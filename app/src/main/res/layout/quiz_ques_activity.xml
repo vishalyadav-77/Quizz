@@ -30,71 +30,63 @@
         android:layout_marginBottom="172dp"
         android:text="By Vishal"
         android:textColor="#FFFF"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/viewQ"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:text="Enter Your Question"
-        android:textColor="#FFFF"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/ques"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/ques"
         android:layout_width="303dp"
         android:layout_height="40dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="35dp"
         android:background="#FFFF"
-        android:ems="10"
+        android:fontFamily="@font/adlam_display"
         android:hint="Type Here"
         android:inputType="text"
-        android:paddingLeft="10dp"
+        android:padding="10dp"
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/viewA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/viewA"
+        android:id="@+id/viewQ"
+        android:textStyle="bold"
+        android:fontFamily="@font/adlam_display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:text="Option A"
+        android:layout_marginBottom="28dp"
+        android:text="Enter Your Question"
         android:textColor="#FFFF"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toTopOf="@+id/T_ques"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/ques"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/T_ques"
         android:layout_width="250dp"
-        android:layout_height="25dp"
-        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
         android:background="#FFFF"
         android:ems="10"
         android:hint="Enter Option A"
+        android:fontFamily="@font/adlam_display"
         android:inputType="text"
-        android:paddingLeft="10dp"
+        android:padding="8dp"
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/viewB"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/viewB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="15dp"
         android:text="Option B"
+        android:fontFamily="@font/adlam_display"
         android:textColor="#FFFF"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/optionB"
@@ -104,26 +96,28 @@
     <EditText
         android:id="@+id/optionB"
         android:layout_width="250dp"
-        android:layout_height="25dp"
-        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:background="#FFFF"
+        android:fontFamily="@font/adlam_display"
         android:ems="10"
-        android:paddingLeft="10dp"
         android:hint="Enter Option B"
         android:inputType="text"
+        android:padding="8dp"
         android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/viewC"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/viewC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="15dp"
         android:text="Option C"
         android:textColor="#FFFF"
+        android:fontFamily="@font/adlam_display"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/optionC"
         app:layout_constraintEnd_toEndOf="parent"
@@ -132,45 +126,62 @@
     <EditText
         android:id="@+id/optionC"
         android:layout_width="250dp"
-        android:layout_height="25dp"
-        android:layout_marginBottom="20dp"
-        android:background="#FFFF"
-        android:ems="10"
-        android:paddingLeft="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:fontFamily="@font/adlam_display"
         android:hint="Enter Option C"
         android:inputType="text"
-        android:textColor="#000000"
+        android:padding="8dp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/viewD"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/viewD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="15dp"
         android:text="Option D"
+        android:fontFamily="@font/adlam_display"
         android:textColor="#FFFF"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/optionD"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent" />
-
 
     <EditText
         android:id="@+id/optionD"
         android:layout_width="250dp"
-        android:layout_height="25dp"
-        android:layout_marginBottom="20dp"
-        android:background="#FFFF"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/adlam_display"
+        android:background="@color/white"
+        android:textColor="@color/black"
         android:ems="10"
         android:hint="Enter Option D"
         android:inputType="text"
-        android:paddingLeft="10dp"
+        android:padding="8dp"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/viewA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Option A"
+        android:fontFamily="@font/adlam_display"
+        android:textColor="#FFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/T_ques"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -181,7 +192,9 @@
         android:backgroundTint="#64DD17"
         android:text="Next"
         android:textSize="22dp"
+        android:paddingHorizontal="50dp"
         android:textStyle="bold"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -190,10 +203,11 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="96dp"
+        android:layout_marginBottom="110dp"
+        android:fontFamily="@font/adlam_display"
         android:text="Choose Correct Option"
         android:textColor="#FFFF"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/next"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -202,7 +216,7 @@
         android:id="@+id/linearlayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="104dp"
         android:orientation="horizontal"
         android:paddingLeft="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -227,6 +241,7 @@
             android:layout_margin="15dp"
             android:backgroundTint="#0091EA"
             android:text="B"
+            android:textColor="@android:color/white"
             android:textSize="16sp" />
 
         <Button
@@ -236,6 +251,7 @@
             android:layout_margin="15dp"
             android:backgroundTint="#0091EA"
             android:text="C"
+            android:textColor="@android:color/white"
             android:textSize="16sp" />
 
         <Button
@@ -245,6 +261,7 @@
             android:layout_margin="15dp"
             android:backgroundTint="#0091EA"
             android:text="D"
+            android:textColor="@android:color/white"
             android:textSize="16sp" />
 
     </LinearLayout>

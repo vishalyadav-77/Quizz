@@ -53,6 +53,7 @@
         android:layout_height="60dp"
         android:layout_marginBottom="188dp"
         android:backgroundTint="#64DD17"
+        android:textColor="@color/white"
         android:text="PLAY"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -65,11 +66,42 @@
         android:layout_width="130dp"
         android:layout_height="60dp"
         android:layout_marginEnd="52dp"
+        android:textColor="@color/white"
         android:layout_marginBottom="188dp"
         android:backgroundTint="#64DD17"
         android:text="SHARE"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/quizCodeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/adlam_display"
+        android:text="Your Code will appear here"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/copyCodeBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/copyCodeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000"
+        android:text="Copy Code"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
