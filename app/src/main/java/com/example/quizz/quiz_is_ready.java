@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
+import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -64,7 +65,7 @@ public class quiz_is_ready extends AppCompatActivity {
         TextView quizCodeText = findViewById(R.id.quizCodeText);
         Button copyCodeBtn = findViewById(R.id.copyCodeBtn);
 
-//        quizReady.setText(String.valueOf(CorrectAnswers[0]));
+
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -195,5 +196,13 @@ public class quiz_is_ready extends AppCompatActivity {
 
             }
         });
+
+
+    }
+    @Override
+    public void onBackPressed() {
+        Intent intentBack = new Intent(quiz_is_ready.this, MainActivity.class);
+        startActivity(intentBack);
+        finish(); // close current activity so it doesn't remain in the back stack
     }
 }
