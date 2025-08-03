@@ -38,8 +38,12 @@
 <hr/>
 
 <h2>📸 Screenshots</h2>
-<p><em>(Add screenshots of your app UI here — highly recommended)</em></p>
-
+<p float="left">
+  <img src="https://raw.githubusercontent.com/vishalyadav-77/Quizz/refs/heads/main/screenshots/ss1.jpg" width="200"/>
+  <img src="https://raw.githubusercontent.com/vishalyadav-77/Quizz/refs/heads/main/screenshots/ss2.jpg" width="200"/>
+  <img src="https://raw.githubusercontent.com/vishalyadav-77/Quizz/refs/heads/main/screenshots/ss3.jpg" width="200"/>
+  <img src="https://raw.githubusercontent.com/vishalyadav-77/Quizz/refs/heads/main/screenshots/ss4.jpg" width="200"/>
+</p>
 <hr/>
 
 <h2>🤝 Contribution</h2>
